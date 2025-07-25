@@ -1,12 +1,15 @@
+
 {
-    "display_name": "Template Extension",
-    "loading_order": 1,
-    "requires": [],
-    "optional": [],
-    "js": "dist/index.js",
-    "css": "",
-    "author": "Cohee1207",
+    "display_name": "Enhanced Demo Extension",
+    "author": "Your Name",
     "version": "1.0.0",
-    "homePage": "https://github.com/Cohee1207/Extension-ReactTemplate",
-    "auto_update": true
+    "homePage": "https://github.com/your/repo",
+    "auto_update": true,
+    "loading_order": 100,
+    "js": "dist/index.js",
+    "generate_interceptor": "enhancedDemoInterceptor",
+    "i18n": {
+        "de": "i18n/de.json",
+        "zh-cn": "i18n/zh-cn.json"
+    }
 }
