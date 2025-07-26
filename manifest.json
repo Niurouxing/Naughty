@@ -1,15 +1,10 @@
-
 {
-    "display_name": "Enhanced Demo Extension",
+    "display_name": "Naughty",
     "author": "Your Name",
-    "version": "1.0.0",
-    "homePage": "https://github.com/your/repo",
-    "auto_update": true,
+    "version": "0.1.0",
+    "description": "A modular, parallel pipeline for LLM interactions.",
+    "js": "src/index.js",
+    "css": "assets/style.css",
     "loading_order": 100,
-    "js": "dist/index.js",
-    "generate_interceptor": "customGenerationInterceptor",
-    "i18n": {
-        "de": "i18n/de.json",
-        "zh-cn": "i18n/zh-cn.json"
-    }
+    "generate_interceptor": "naughtyInterceptor"
 }

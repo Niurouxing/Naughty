@@ -1,0 +1,56 @@
+<!-- assets/templates/settings.html -->
+<div class="extension_settings">
+    <div class="inline-drawer">
+        <!-- 抽屉的标题，点击这里可以展开/折叠 -->
+        <div class="inline-drawer-toggle inline-drawer-header">
+            <span>Naughty Plugin</span>
+            <div class="inline-drawer-icon fa-solid fa-circle-chevron-down down"></div>
+        </div>
+
+        <!-- 我们的设置内容放在这里，默认是隐藏的 -->
+        <div class="inline-drawer-content">
+            <div class="naughty_settings_inner_container">
+                <div class="naughty-setting-item">
+                    <div class="name">Enable Plugin</div>
+                    <div class="checkbox_outer">
+                        <input id="naughty_enabled_switch" type="checkbox" class="naughty-checkbox">
+                        <label for="naughty_enabled_switch"></label>
+                    </div>
+                </div>
+    
+                <div class="naughty-setting-item">
+                    <div class="name">Demo String</div>
+                    <input id="naughty_demo_string_input" type="text" class="text_pole" placeholder="Enter the interception message">
+                </div>
+    
+                <div class="naughty-setting-item description">
+                    <p>This is a foundational build. The interceptor is active. When enabled, it will prevent the normal AI generation and instead output the demo string above.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- 将样式移到模板内部，确保它们能正确应用 -->
+<style>
+    .naughty_settings_inner_container {
+        padding: 10px;
+    }
+    .naughty-setting-item {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+    .naughty-setting-item .name {
+        font-weight: bold;
+    }
+    .naughty-setting-item .description p {
+        font-size: 0.9em;
+        color: var(--text_secondary);
+        margin-top: 15px;
+    }
+    .naughty-checkbox {
+        margin: 0;
+    }
+</style>
