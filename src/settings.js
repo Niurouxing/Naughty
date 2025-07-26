@@ -6,8 +6,8 @@ export const MODULE_NAME = 'enhanced_demo_extension';
 
 // 定义默认设置
 export const defaultSettings = {
-    enableInterceptor: true,
-    systemNoteContent: "This note was added by the Enhanced Demo Extension.",
+    enableInterceptor: true, 
+    systemNoteContent: "This note was added by the default interceptor.",
 };
 
 // 获取或初始化设置的函数

@@ -23,10 +23,22 @@ module.exports = {
             },
         ],
     },
-    optimization: {
-        minimize: true,
-        minimizer: [new TerserPlugin({
-            extractComments: false,
-        })],
-    },
+    // optimization: {
+    //     minimize: true,
+    //     minimizer: [new TerserPlugin({
+    //         extractComments: false,
+    //         terserOptions: {
+    //             mangle: false, // 禁用变量名混淆
+    //             keep_fnames: true, // 保留函数名
+    //             keep_classnames: true, // 保留类名
+    //             compress: {
+    //                 drop_console: false, // 可选择是否移除 console.log，设为 true 可移除
+    //             },
+    //             format: {
+    //                 beautify: true, // 可选：格式化输出，便于阅读
+    //                 comments: true, // 保留注释
+    //             },
+    //         },
+    //     })],
+    // },
 };

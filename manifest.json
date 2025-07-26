@@ -7,7 +7,7 @@
     "auto_update": true,
     "loading_order": 100,
     "js": "dist/index.js",
-    "generate_interceptor": "enhancedDemoInterceptor",
+    "generate_interceptor": "customGenerationInterceptor",
     "i18n": {
         "de": "i18n/de.json",
         "zh-cn": "i18n/zh-cn.json"

@@ -10,7 +10,7 @@ const SettingsPanel = ({ settings, onSettingsChange, translate }) => {
             <h2 style={styles.title}>{translate('Plugin Settings')}</h2>
             <div style={styles.settingRow}>
                 <label style={styles.label} htmlFor="enableInterceptor">
-                    {translate('Enable System Note Interceptor')}
+                    {translate('Enable Custom Generation Interceptor')}
                 </label>
                 <input
                     type="checkbox"
